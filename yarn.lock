@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@fontsource/cabin@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/cabin/-/cabin-4.5.9.tgz#2396c14ce78ab55c5e32c210d3d9fcd72c8c3a2d"
+  integrity sha512-xfgktq3GUUk/LSNE91MOJyHEaeXBmAyCkjX/syEqEQj88HG7LA4npPZ0FzQ/mg56gLgdginDhkTH3/JcB+jDdA==
+
 "@fontsource/inter@^4.5.14":
   version "4.5.14"
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.14.tgz#3944b809aa7bf27dacd20bdc04a49fb738959724"

@@ -11,6 +11,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@fontsource/cabin": "^4.5.9",
     "@fontsource/inter": "^4.5.14",
     "@fontsource/space-grotesk": "^4.5.10",
     "@tailwindcss/forms": "^0.5.3",

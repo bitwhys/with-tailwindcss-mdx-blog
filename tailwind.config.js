@@ -10,11 +10,12 @@ module.exports = {
         rose: colors.rose,
       },
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ['CabinVariable', ...defaultTheme.fontFamily.sans],
         heading: ['Space GroteskVariable',...defaultTheme.fontFamily.sans]
       },
       backgroundImage: {
-        synth: 'linear-gradient(109.8deg, #20D9F7 13.24%, #F70776 85.86%);'
+        synth: 'linear-gradient(109.8deg, #20D9F7 13.24%, #F70776 85.86%);',
+        midnite: 'linear-gradient(82.19deg, #320A5C 5.2%, #C9069E 100.36%)'
       }
     },
   },

@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import '@fontsource/space-grotesk/variable.css'
-import '@fontsource/inter/variable.css'
+import '@fontsource/cabin/variable.css'
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
