@@ -11,7 +11,10 @@ module.exports = {
       },
       fontFamily: {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
-        heading: ['SpaceGroteskVariable',...defaultTheme.fontFamily.sans]
+        heading: ['Space GroteskVariable',...defaultTheme.fontFamily.sans]
+      },
+      backgroundImage: {
+        synth: 'linear-gradient(109.8deg, #20D9F7 13.24%, #F70776 85.86%);'
       }
     },
   },
