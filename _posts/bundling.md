@@ -1,3 +1,6 @@
+---
+title: Bundling
+---
 ## Where bundling comes from?
 
 We started bundling our assets because of performance reasons.

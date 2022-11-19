@@ -1,5 +1,4 @@
 ---
-tags: [Notebooks/React-Router]
 title: Philosophy
 created: '2019-08-25T08:28:58.612Z'
 modified: '2019-08-25T09:03:59.892Z'

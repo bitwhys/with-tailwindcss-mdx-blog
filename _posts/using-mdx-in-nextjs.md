@@ -1,3 +1,7 @@
+---
+title: Using MDX in Next.js
+---
+
 # Using MDX in Next.js
 ## Concepts
 ### [[Transformation]]

@@ -1,8 +1,10 @@
-import Button from "./Button";
-import PostPreviewCard from "./PostPreviewCard";
+import Button from './Button'
+import PostPreviewCard from './PostPreviewCard'
 
-{/* TODO: replace with data fetched from inside page (i.e, useStaticProps) */}
-const posts = [
+{
+  /* TODO: replace with data fetched from inside page (i.e, useStaticProps) */
+}
+export const samplePosts = [
   {
     title: 'Boost your conversion rate',
     href: '#',
@@ -36,7 +38,7 @@ const posts = [
   },
 ]
 
-const AllBlogs = () => (
+const AllBlogs = ({ posts }: { posts: typeof samplePosts }) => (
   <div className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
     <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
       <div>
@@ -58,16 +60,15 @@ const AllBlogs = () => (
                 placeholder="Enter your email"
               />
             </div>
-            <div
-              className="mt-2 flex w-full flex-shrink-0 rounded-md shadow-sm sm:mt-0 sm:ml-3 sm:inline-flex sm:w-auto">
+            <div className="mt-2 flex w-full flex-shrink-0 rounded-md shadow-sm sm:mt-0 sm:ml-3 sm:inline-flex sm:w-auto">
               <Button>Notify me</Button>
             </div>
           </form>
         </div>
       </div>
       <div className="mt-6 grid gap-16 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
-        {posts.map((post) => (
-          <PostPreviewCard {...post}/>
+        {posts.map((post: typeof samplePosts[0]) => (
+          <PostPreviewCard {...post} />
         ))}
       </div>
     </div>

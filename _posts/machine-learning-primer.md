@@ -1,3 +1,6 @@
+---
+title: Machine Learning Primer
+---
 # Machine Learning : Preliminaries
 
 > *The __computational complexity__ of machine learning methods is of interest to the computer scientist since what is produced are __algorithms__. Looking to apply these methods to very large datasets, algorithms with high-degree polynomial complexity in the size of the dataset (or worse) become problematic. We will be concerned with two forms of complexity: **complexity of training** and **complexity of the models application***

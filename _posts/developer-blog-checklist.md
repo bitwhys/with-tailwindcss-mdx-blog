@@ -1,3 +1,6 @@
+---
+title: Developer Blog Checklist
+---
 # Developer Blog
 ## Components & Services
 - Building the site (design)

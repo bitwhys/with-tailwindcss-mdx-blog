@@ -1,3 +1,7 @@
+---
+title: Web Scraping with Python
+---
+
 # Web Scraping with Python
 
 ### Requests
